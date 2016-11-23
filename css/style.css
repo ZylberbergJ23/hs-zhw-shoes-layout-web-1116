@@ -302,4 +302,42 @@ footer {
 		text-decoration: underline;
 	}
 
+* {box-sizing: border-box;} 
+
+.col-1{
+  float:right;
+  width: 32%;
+}
+
+.col-2{
+  float:left;
+  width: 66%;
+}
+
+.col-3{
+  background:#ccc;
+}
+
+.clearfix:after {
+  content: ".";
+  display:block;
+  clear:both;
+  visibility: hidden;
+  height:0;
+  line-height: 0;}
+
+
+
+.wrapper .shadow {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+[class*="col-"] {margin-left:2%;}
+
+.first{
+  margin-left:0%;
+}
+
 /* code examples copyright Jonathan Grover 2012 */
